@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/newStoreKZ.css" />
+    <link rel="stylesheet" href="../css/swiper-3.4.0.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-2.2.4.min.js"></script>
+    <script src="../js/swiper-3.4.0.jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="body">
+        <!--header-->
+        <!--轮播图-->
+        <div class="swiper-container SD">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img class="lbt" src="../img/130d7430c617a0a0a12fa54c1beb8b01.jpg" alt="" /></div>
+                <div class="swiper-slide"><img class="lbt" src="../img/1474a8f9a25632d4da435d5c14dd1d7d.jpg"/></div>
+                <div class="swiper-slide"><img class="lbt" src="../img/5103a79dd0495d7288d56d14a25c5aa9.jpg" alt="" /></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev swiper-button-white" id="prevBtn"></div>
+            <div class="swiper-button-next swiper-button-white" id="nextBtn"></div>
+        </div>
+        <div class="clearfix"></div>
+        <script>
+            var mySwiper = new Swiper('.swiper-container', {
+                autoplay: 1000,//可选选项，自动滑动
+                //direction:"vertical",//默认是水平滑动  这是垂直滑动
+                initialSlide:0,//默认线是哪一块 索引值从0开始 也就是第一块的索引值是0
+                speed:300,//模块自动的滑动的开始到结束时间
+                autoplayStopOnLast:false,//自动转换到最后一个slide的时候是否停止自动切换 默认值false(不停止) true(停止) 有loop的时候不好使
+                //loop:true,//反向循环
+                grabCursor:true,//当鼠标覆盖到swiper上时,指针变小手 拖动时指针变拳头 默认值是false
+                slidesPerView:1,//设置可以同时显示的滑块的数量 可以使number(数字 ) auto(自动根据swiper的宽度显示多少块)
+                slidesPerGroup:1,//设置可以同时画过几个
+                effect:"fade",//"fade"（淡入）"cube"（方块）"coverflow"（3d流）"flip"（3d翻转） 默认slide
+
+                //分页===
+                pagination:'.swiper-pagination',//分页器
+                paginationType:'bullets',//设置分液器样式 "bullets"圈点(默认样式) "fraction" 分式 progress 进度条
+                paginationClickable:true,//分液器是否可以点击 默认是false 不可以点击
+                paginationHide:false,//当点击swiper时控制分页起的显示隐藏 默认是false 一直显示 设置为true 点击一下隐藏
+                prevButton:"#prevBtn",
+                nextButton:"#nextBtn"
+            })
+        </script>
+        <!--分类部分-->
+        <div class="container">
+            <div class="row">
+                <button type="button" class="btn btn-default col-xs-10 col-xs-offset-1">快速了解互助修车</button>
+            </div>
+        </div>
+        <div class="plan">
+            <div class="planN">个人加入互助计划</div>
+            <div class="ge"></div>
+            <div class="planN">企业加入互助计划</div>
+        </div>
+        <!--导航区域-->
+        <div class="nav">
+        	<div class="nav_z">
+        		<div class="nav_F col-xs-6">
+	            	<div><img src="../img/区块链@2x.png" alt="" /></div>
+	            	<div class="nav_word">
+	            		<span>区块链</span><br />
+	            		<span>去中心,去信任</span>
+	            	</div>
+	            </div>
+	            <div class="nav_F col-xs-6">
+	            	<div><img src="../img/区块链@2x.png" alt="" /></div>
+	            	<div class="nav_word">
+	            		<span>区块链</span><br />
+	            		<span>去中心,去信任</span>
+            		</div>
+            	</div>
+        	</div>
+        	<div class="nav_z">
+        		<div class="nav_F col-xs-6">
+	            	<div><img src="../img/区块链@2x.png" alt="" /></div>
+	            	<div class="nav_word">
+	            		<span>区块链</span><br />
+	            		<span>去中心,去信任</span>
+	            	</div>
+	            </div>
+            	<div class="nav_F col-xs-6">
+            		<div><img src="../img/区块链@2x.png" alt="" /></div>
+	            	<div class="nav_word">
+	            		<span>区块链</span><br />
+	            		<span>去中心,去信任</span>
+	            	</div>
+	            </div>
+        	</div>
+        </div>
+        <!--主体区域-->
+        <div class="main">
+        	 <div class="main_title">
+        	<span>看看大咖怎么说</span>
+	        </div>
+	        <div class="talking">
+	        	<div class="main_touXiang">
+	            	<div class="TX"><img src="" alt="" /></div>
+	            	<div class="">
+	            		<span>区块链</span><br />
+	            		<span>去中心,去信任</span>
+	            	</div>
+	           </div>
+            	<div class="say">
+            		 Thinking about overseas adventure travel? Have you put any thought
+            		 into the best places to go when it comes to overseas adventure travel?
+            	</div> 
+	        </div>
+	        <div class="talking">
+	        	<div class="main_touXiang">
+	            	<div class="TX"><img src="" alt="" /></div>
+	            	<div class="">
+	            		<span>区块链</span><br />
+	            		<span>去中心,去信任</span>
+	            	</div>
+	           </div>
+            	<div class="say">
+            		 Thinking about overseas adventure travel? Have you put any thought
+            		 into the best places to go when it comes to overseas adventure travel?
+            	</div> 
+	        </div>
+        </div>
+        <!--底部区域-->
+		<div class="footer">
+			<div>
+				<img src="../img/公告@2x.png"/><br />
+				<a href="">首页</a>
+			</div>
+			<div>
+				<img src="../img/公告@2x.png"/><br />
+				<a href="">动态</a>
+			</div>
+			<div>
+				<img src="../img/公告@2x.png"/><br />
+				<a href="">我的</a>
+			</div>
+		</div>
+    </div>
+
+</body>
+</html>
